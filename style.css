@@ -46,6 +46,13 @@ body {
 }
 
 
+@media screen and (max-width: 768px) {
+	.logo img {
+		display: none;
+	}
+}
+
+
 .instruction {
 	margin: auto;
 	width: 100%;
@@ -94,7 +101,7 @@ h4 {
 	transition: 1s linear;
 	overflow: hidden;
 	background: white;
-	height: 6em;
+	height: 7em;
 	padding-top: 0;
 	margin: 1em auto;
 	border-radius: 0.5em;
