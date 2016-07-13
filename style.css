@@ -1,0 +1,127 @@
+body {
+	background: #e9e6e2;
+	margin: 0 auto;
+	padding: 0 10%;
+	padding-bottom: 5%;
+}
+
+.header {
+	display: inline-block;
+	width: 100%
+	margin: 0 auto;
+
+}
+
+.title {
+	width: 55%;
+	margin: 0 auto;
+	float: right;
+}
+.title h1 {
+	display: inline;
+	margin: 0 auto;
+	margin-right: 0.1em;
+	font-size: 9em;
+	font-family: Pacifico;
+	opacity: 0.8;
+
+
+}
+
+.logo {
+	width: 45%;
+	margin: 2em auto;
+	float: left;
+
+}
+
+.logo img {
+	display: inline-block;
+	border-radius: 50%;
+	background-color: white;
+	opacity: 0.7;
+	width: 7em;
+	height: 7em;
+	float: right;
+
+}
+
+
+.instruction {
+	margin: auto;
+	width: 100%;
+	display: block;
+
+}
+
+.instruction p {
+	margin: auto;
+	text-align: center;
+	font-family: 'Patua One';
+	font-size: 2em;
+}
+
+.form_section {
+	width: 16%;
+	display: inline-block;
+	margin: 0em 1em 0em 1em;
+}
+
+input {
+	margin: 0.8em 0;
+	opacity: 0.7;
+}
+
+h4 {
+	text-align: center;
+	padding-bottom: 0%;
+	margin-bottom: 0%;
+	font-family: 'Slabo 27px';
+}
+
+.submit {
+	width: 57%;
+	float: right;
+	padding: 0%;
+}
+
+.button {
+	padding: 0.5em;
+	font-family: 'Bitter';
+}
+
+#answers {
+	transition: 1s linear;
+	overflow: hidden;
+	background: white;
+	height: 6em;
+	padding-top: 0;
+	margin: 1em auto;
+	border-radius: 0.5em;
+}
+
+#answers p {
+	text-align: center;
+	font-family: 'Bitter';
+	padding-top: 0.8em;
+	margin-bottom: 0;
+}
+
+#answers p span {
+	font-weight: bold;
+}
+
+.hide {
+	opacity: 0;
+	height: 0;
+}
+
+.show {
+	opacity: 1;
+	height: 100vh;
+}
+
+.date {
+	float: left;
+	font-size: 0.7em;
+}
