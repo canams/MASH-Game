@@ -55,9 +55,9 @@ body {
 
 .instruction {
 	margin: auto;
-	width: 40%;
+	width: 90%;
 	display: inline-block;
-
+	margin: auto;
 }
 
 .instruction p {
