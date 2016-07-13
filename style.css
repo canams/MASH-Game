@@ -23,7 +23,7 @@ body {
 	font-size: 7em;
 	font-family: Pacifico;
 	opacity: 0.8;
-
+	text-align: center;
 
 }
 
@@ -55,7 +55,7 @@ body {
 
 .instruction {
 	margin: auto;
-	width: 100%;
+	width: 40%;
 	display: inline-block;
 
 }
@@ -64,7 +64,7 @@ body {
 	margin: auto;
 	text-align: center;
 	font-family: 'Patua One';
-	font-size: 2em;
+	font-size: 1.5em;
 }
 
 .form_section {
